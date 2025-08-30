@@ -1,0 +1,191 @@
+{
+  "google": {
+    "gemini-2.5-pro": {
+      "display_name": "Gemini 2.5 Pro",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "notes": "Frontier reasoning; long context; supports Google Search Grounding.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "long-context",
+        "multimodal",
+        "grounding"
+      ]
+    },
+    "gemini-2.5-flash": {
+      "display_name": "Gemini 2.5 Flash",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "notes": "Great price/perf; hybrid reasoning; good for high-volume enrichment.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "long-context",
+        "multimodal",
+        "grounding"
+      ]
+    },
+    "gemini-2.5-flash-lite": {
+      "display_name": "Gemini 2.5 Flash-Lite",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "notes": "Smallest & cheapest; ideal for classification/extraction at scale.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "long-context",
+        "multimodal",
+        "grounding"
+      ]
+    }
+  },
+  "openai": {
+    "gpt-5": {
+      "display_name": "GPT-5",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://openai.com/api/pricing/",
+      "notes": "Flagship reasoning; supports Web Search tool via Responses API.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "reasoning",
+        "tool-use",
+        "web-search"
+      ]
+    },
+    "gpt-5-mini": {
+      "display_name": "GPT-5 mini",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://openai.com/api/pricing/",
+      "notes": "Fast and inexpensive for well-defined tasks.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "tool-use",
+        "web-search"
+      ]
+    },
+    "gpt-4o-mini": {
+      "display_name": "GPT-4o mini",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://openai.com/api/pricing/",
+      "notes": "Balanced baseline; good for enrichment & extraction.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "multimodal",
+        "tool-use",
+        "web-search"
+      ]
+    }
+  },
+  "anthropic": {
+    "claude-4-sonnet": {
+      "display_name": "Claude Sonnet 4",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://www.anthropic.com/pricing",
+      "notes": "Strong critical thinking; supports structured outputs + web search.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "reasoning",
+        "tool-use",
+        "web-search"
+      ]
+    },
+    "claude-3-7-sonnet": {
+      "display_name": "Claude Sonnet 3.7",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://www.anthropic.com/pricing",
+      "notes": "Balanced hybrid; good quality at moderate cost.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "reasoning",
+        "tool-use",
+        "web-search"
+      ]
+    },
+    "claude-3.5-haiku": {
+      "display_name": "Claude Haiku 3.5",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://www.anthropic.com/pricing",
+      "notes": "Cheapest Claude; great for large-scale labeling.",
+      "web_search": {
+        "per_1k": 0.0,
+        "free_rpd": 0
+      },
+      "capabilities": [
+        "tool-use",
+        "web-search"
+      ]
+    }
+  },
+  "perplexity": {
+    "sonar": {
+      "display_name": "Perplexity Sonar",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://docs.perplexity.ai/getting-started/pricing",
+      "notes": "Search-native with citations; request fee per call.",
+      "request_fee_per_call": 0.0,
+      "capabilities": [
+        "web-search",
+        "citations"
+      ]
+    },
+    "sonar-pro": {
+      "display_name": "Perplexity Sonar Pro",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://docs.perplexity.ai/getting-started/pricing",
+      "notes": "Deeper understanding; request fee per call.",
+      "request_fee_per_call": 0.0,
+      "capabilities": [
+        "web-search",
+        "citations"
+      ]
+    },
+    "sonar-deep-research": {
+      "display_name": "Sonar Deep Research",
+      "input_per_m": 0.0,
+      "output_per_m": 0.0,
+      "pricing_url": "https://docs.perplexity.ai/getting-started/pricing",
+      "notes": "Exhaustive web research; charges per search + extra token classes.",
+      "search_per_1k": 0.0,
+      "citation_per_m": 0.0,
+      "reasoning_per_m": 0.0,
+      "capabilities": [
+        "web-search",
+        "citations",
+        "reasoning"
+      ]
+    }
+  }
+}
